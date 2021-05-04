@@ -5,11 +5,15 @@
 > **_Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
 > between 2000 and 3200 (both included).The numbers obtained should be printed in a comma-separated sequence on a single line._**
 
+> **编写一个程序，查找所有此类数字，它们可以被7整除但不是5的倍数（在2000和3200之间（均包括在内））。获得的数字应以逗号分隔的顺序打印在一行上。**
+
 ---
 
 ### Hints:
 
 > **_Consider use range(#begin, #end) method._**
+
+> **考虑使用range（＃begin，＃end）方法。**
 
 ---
 
@@ -49,11 +53,15 @@ print(*(i for i in range(2000, 3201) if i%7 == 0 and i%5 != 0), sep=",")
 > **_Write a program which can compute the factorial of a given numbers.The results should be printed in a comma-separated sequence on a single line.Suppose the following input is supplied to the program: 8
 > Then, the output should be:40320_**
 
+> **编写一个程序，可以计算给定数字的阶乘，结果应以逗号分隔的顺序打印在一行上，假设向程序提供了以下输入：8然后，输出应为：40320**
+
 ---
 
 ### Hints:
 
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
+
+> **如果将输入数据提供给问题，则应假定它是控制台输入。**
 
 ---
 
@@ -148,11 +156,21 @@ print(reduce(fun,range(1, num+1), 1))
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 ```
 
+> **使用给定的整数n，编写程序以生成包含（i，ixi）的字典，该字典为1到n之间的整数（都包括在内）。然后程序应打印字典。假设向程序提供了以下输入：8**
+
+> **然后，输出应为：**
+
+```
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
+```
+
 ---
 
 ### Hints:
 
 > **_In case of input data being supplied to the question, it should be assumed to be a console input.Consider use dict()_**
+
+> **如果将输入数据提供给问题，则应假定它是控制台输入。考虑使用dict（）**
 
 ---
 

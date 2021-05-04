@@ -15,9 +15,23 @@
 ('34', '67', '55', '33', '12', '98')
 ```
 
+> **编写一个程序，该程序从控制台接受一个逗号分隔的数字序列，并生成一个列表和一个包含每个数字的元组。假设向该程序提供了以下输入：**
+
+```
+34,67,55,33,12,98
+```
+> **然后，输出应为：**
+
+```
+['34', '67', '55', '33', '12', '98']
+('34', '67', '55', '33', '12', '98')
+```
+
 ### Hints:
 
 > **_In case of input data being supplied to the question, it should be assumed to be a console input.tuple() method can convert list to tuple_**
+
+> **如果将输入数据提供给问题，则应假定它是一个控制台input.tuple（）方法可以将列表转换为元组**
 
 ---
 
@@ -64,9 +78,19 @@ print(tuple(input("Enter a series of numbers separated by a comma :").split(',')
 
 > **_Also please include simple test function to test the class methods._**
 
+> **定义一个至少具有两个方法的类：**
+
+> **getString：从控制台输入获取字符串**
+> 
+> **printString：以大写字母打印字符串。**
+> 
+> **还请包括简单的测试功能来测试类方法。**
+
 ### Hints:
 
 > **_Use **init** method to construct some parameters_**
+
+> **使用init方法构造一些​​参数**
 
 ---
 
